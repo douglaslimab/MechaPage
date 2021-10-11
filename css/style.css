@@ -382,14 +382,16 @@ footer p{
     .about{
         padding: 3%;
     }
-    .work,
-    .contact{
+    .work{
         padding: 0 10%;
-        margin: 1px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        transform: translate(5%);
+    }
+    .contact{
+        margin: 10% 3%;
     }
     .contact-box{
         display: flex;
