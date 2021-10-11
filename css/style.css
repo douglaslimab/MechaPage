@@ -315,7 +315,7 @@ form input,
 form textarea{
     display: block;
     width: 90%;
-    padding: 20px;
+    padding: 10px;
     background-color: #252627;
     border: 3px solid #707070;
     margin: 20px 0;
@@ -385,11 +385,28 @@ footer p{
     .work,
     .contact{
         padding: 0 10%;
+        margin: 1px;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+    .contact-box{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #706c61;
+        box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
+        z-index: 1;
+        background: linear-gradient(to right bottom, rgba(126, 126, 133, 0.8), rgba(25, 26, 27, 0.3));
+    }
+    form input,
+    form textarea{
+        border: none;
+        width: 110%;
+    }
+    
     .timeline ul{
         transform: translateX(5%);
     }
