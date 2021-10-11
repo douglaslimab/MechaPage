@@ -408,7 +408,9 @@ footer p{
         border: none;
         width: 110%;
     }
-    
+    .timeline{
+        width: 110%;
+    }
     .timeline ul{
         transform: translateX(5%);
     }
