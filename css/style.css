@@ -137,6 +137,7 @@ a{
     color: #ffeedb;
     font-size: 3rem;
     cursor: context-menu;
+    white-space: nowrap;
 }
 
 .text span{
