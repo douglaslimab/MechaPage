@@ -137,7 +137,6 @@ a{
     color: #ffeedb;
     font-size: 3rem;
     cursor: context-menu;
-    white-space: nowrap;
 }
 
 .text span{
@@ -398,7 +397,7 @@ footer p{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        transform: translate(5%);
+        transform: translate(8%);
     }
     .contact{
         margin: 10% 3%;
