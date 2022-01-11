@@ -361,6 +361,27 @@ footer p{
     font-size: 1.2rem;
     padding: 15px 0;
 }
+
+.nav-menu{
+    height: 100vh;
+    background-color: #bebebe;
+}
+.nav-menu ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.nav-menu ul li{
+    margin: 1rem;
+}
+.nav-menu ul li a{
+    font-size: 2rem;
+}
+.hide-nav-menu{
+    display: none;
+}
+
 /*  Visible for Mobile  */
 @media (max-width: 767px){
     .hidden-mobile{
