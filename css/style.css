@@ -60,6 +60,12 @@ a{
     background: linear-gradient(to right bottom, rgba(126, 126, 133, 0.8), rgba(25, 26, 27, 0.3));
 }
 
+.contact h1,
+.portfolio h1{
+    margin-right: 50px;
+    text-align: right;
+}
+
 .about-me-info p,
 .projects p,
 .experience p{
@@ -182,10 +188,10 @@ span:not(:last-child){
 
 /* main begin*/
 .main{
-    padding: 0 10%;
+    padding: 0%;/**/
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;/**/
     margin: 12vh 0;
 }
 
@@ -332,12 +338,6 @@ span.m-left{
     margin-top: 50px;
 }
 
-.contact h1,
-.portfolio h1{
-    margin-right: 50px;
-    text-align: right;
-}
-
 /* form contact */
 form{
     display: flex;
@@ -352,7 +352,7 @@ form textarea{
     padding: 20px;
     background-color: #252627;
     border: 3px solid #707070;
-    margin: 20px 0;
+    margin: 2px 0;
     font-size: 1.2rem;
     color: #fff;
     position: relative;
@@ -416,7 +416,8 @@ footer p{
     }
     .main{
         margin: 1vh 0 20vh;
-        padding: 3%;
+        padding: 1%;
+        justify-content: space-around;
     }
     .profile-image img{
         margin-top: 50px;
@@ -428,10 +429,6 @@ footer p{
     .work,
     .contact{
         padding: 0 10%;/**/
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
     }
     .timeline ul{
         transform: translateX(15%);
