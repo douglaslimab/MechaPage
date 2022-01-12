@@ -47,7 +47,7 @@ a{
 .projects,
 .experience,
 .contact-box{
-    max-width: 900px;
+    max-width: 90%;
     background-color: #706c61;
     box-shadow: 0 0 1.2rem rgba(0,0,0,.25);
     padding: 50px;
@@ -62,8 +62,7 @@ a{
 
 .contact h1,
 .portfolio h1{
-    margin-right: 50px;
-    text-align: right;
+    margin-left: 50px;
 }
 
 .about-me-info p,
@@ -221,7 +220,7 @@ span.name{
 }
 
 span.m-left{
-    margin-left: -10px;
+    margin-left: -12px;
 }
 
 .text p{
