@@ -430,6 +430,9 @@ footer p{
     .contact{
         padding: 0 10%;/**/
     }
+    .contact-box{
+        padding: 1rem 0.3rem;
+    }
     .timeline ul{
         transform: translateX(15%);
     }
