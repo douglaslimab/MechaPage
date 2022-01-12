@@ -363,10 +363,19 @@ footer p{
 }
 
 .nav-menu{
-    height: 100vh;
+    position: absolute;
+    height: auto;
+    width: 70vh;
+    z-index: 2;
+
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background-color: #bebebe;
+    border-radius: 10px;
 }
 .nav-menu ul{
+    padding: 1.5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
