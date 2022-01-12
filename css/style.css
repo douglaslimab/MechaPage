@@ -62,7 +62,8 @@ a{
 
 .contact h1,
 .portfolio h1{
-    margin-left: 50px;
+    margin-right: 50px;
+    text-align: right;
 }
 
 .about-me-info p,
@@ -402,7 +403,7 @@ footer p{
         display: none;
     }
     header{
-        max-width: 100%;
+        max-width: 100vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -436,6 +437,12 @@ footer p{
     }
     .timeline ul{
         transform: translateX(15%);
+    }
+    .about h1,
+    .work h1,
+    .contact h1{
+        margin: 0px;
+        text-align: left;
     }
 }
 /*  for mobile end*/
