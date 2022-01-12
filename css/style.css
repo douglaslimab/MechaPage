@@ -402,6 +402,7 @@ footer p{
         display: none;
     }
     header{
+        max-width: 100%;
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -414,6 +415,7 @@ footer p{
         margin-left: 30px;
     }
     .main{
+        max-width: fit-content;
         margin: 1vh 0 20vh;
         padding: 1%;
         justify-content: space-around;
